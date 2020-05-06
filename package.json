@@ -1,11 +1,16 @@
 {
-  "name": "bookmovie",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "bookmovie",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "homepage": "https://timagixe.github.io/js-book-movie/",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "deploy": "gh-pages -d root"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "gh-pages": "^2.2.0"
+    }
 }
