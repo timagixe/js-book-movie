@@ -3,13 +3,21 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "homepage": "https://timagixe.github.io/js-book-movie/",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "deploy": "gh-pages -d root"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/timagixe/js-book-movie.git"
+    },
+    "keywords": [],
     "author": "",
     "license": "ISC",
+    "homepage": "https://timagixe.github.io/js-book-movie/",
+    "bugs": {
+        "url": "https://github.com/timagixe/js-book-movie/issues"
+    },
     "dependencies": {
         "gh-pages": "^2.2.0"
     }
